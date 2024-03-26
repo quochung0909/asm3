@@ -1,6 +1,6 @@
 WEBSITE ĐẶT LỊCH KHÁM BỆNH CHỈ CÓ API
 
-Được viết bằng ngôn ngữ Java, Spring Boot 3, JDK 21
+Được viết bằng ngôn ngữ Java, Spring Boot 3, Spring Security 6 JWT,  JDK 21
 
 1. Chức năng đăng nhập, đăng ký
 
@@ -60,6 +60,44 @@ Tìm kiếm theo tên phòng khám
 
 ![alt text](image/image-12.png)
 
+2.5 Đặt lịch khám
 
+![alt text](image/image-19.png)
+
+3. Dành cho bác sĩ
+
+3.1 Hiển thị danh sách bệnh nhân
+
+![alt text](image/image-13.png)
+
+3.2 Nhận/hủy lịch khám của bệnh nhân
+
+![alt text](image/image-14.png)
+
+4. Dành cho người quản lý hệ thống (Admin)
+
+4.1 Khóa/hủy khóa tài khoản của bệnh nhân
+
+Khoá tài khoản bệnh nhân
+
+![alt text](image/image-15.png)
+
+Mở khoá tài khoản
+
+![alt text](image/image-16.png)
+
+4.2 Thêm tài khoản bác sĩ
+
+![alt text](image/image-17.png)
+
+5. Yêu cầu chức năng nâng cao
+
+5.1 Gửi thông tin về email cá nhân của bệnh nhân
+
+![alt text](image/image-18.png)
+
+5.2 Xem thông tin chi tiết lịch khám của từng bệnh nhân
+
+5.3 Xem thông tin chi tiết lịch khám của từng bác sĩ
 
 
